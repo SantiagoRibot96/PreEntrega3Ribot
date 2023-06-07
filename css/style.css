@@ -186,6 +186,21 @@ main{
     background-color: rgb(252, 234, 203);
 }
 
+/*UBICACION*/
+
+.MainUbicacion{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.MainUbicacion iframe{
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.MainUbicacion p{
+    width: 100%;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1270px){
 
