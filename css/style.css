@@ -160,22 +160,30 @@ main{
     width: 25%;
 }
 
-.input-group .btn{
-    width: 100%;
-    color: black;
-}
-
 .dropdown-menu{
     width: 93%;
     margin-left: 1rem;
 }
 
-.form-check{
-    margin-left: 2rem;
+.form-select{
+    text-align: left;
 }
 
-.btn-outline-secondary:hover{
-    background-color: none;
+.form-check{
+    margin-left: 1rem;
+}
+
+.Img--pequeña{
+    width: 2rem;
+    margin-left: .5rem;
+}
+
+.FechaDeEntrega div a{
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    background-color: rgb(252, 234, 203);
 }
 
 /*MEDIA QUERIES*/
@@ -200,6 +208,10 @@ main{
     .LogosSociales__li img{
         width: 3rem;
         margin-left: .5rem;
+    }
+
+    .margen{
+        margin: 2rem;
     }
 
 }
@@ -235,7 +247,8 @@ main{
     }
 
     .input-group{
-        margin: 0 1rem 0 1rem;
+        margin: 0 1rem 0 2rem;
+        padding: 0;
         width: 40%;
     }
 
@@ -248,4 +261,7 @@ main{
         width: 40%;
     }
 
+    .selected_op{
+        display: inline;
+    }
 }

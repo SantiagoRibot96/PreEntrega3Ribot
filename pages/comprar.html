@@ -58,133 +58,125 @@
             <!--Imagen flotante de flecha-->
             <a href="#top"><img class="to_top" src="../imagenes/to_top.jpg" alt="Al inicio"></a>
 
-            <section>
-                <div class="row FormularioCompra">
-                    <div class="input-group mb-3 col-md-6 col-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Tipo</label>
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected>Elija...</option>
-                            <option value="1">Barba</option>
-                            <option value="2">QBO</option>
-                            <option value="3">Flama</option>
-                            <option value="3">Portatil</option>
-                        </select>
-                    </div>
-                      
-                    <div class="input-group mb-3 col-md-6 col-3">
-                        <label class="input-group-text" for="inputGroupSelect02">Tamaño</label>
-                        <select class="form-select" id="inputGroupSelect02">
-                            <option selected>Elija...</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
+            <section class="row">
+
+                <!--Formulario de Compra-->
+                <section class="col-12 col-lg-7">
+                    <div class="row FormularioCompra">
+                        <!--Elemento Seleccionable-->
+                        <div class="input-group mb-3 col-md-6 col-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Tipo</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Tipo...</option>
+                                <option value="1">Barba</option>
+                                <option value="2">QBO</option>
+                                <option value="3">Flama</option>
+                                <option value="3">Portatil</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group mb-3 col-md-6 col-3">
+                            <label class="input-group-text" for="inputGroupSelect02">Tamaño</label>
+                            <select class="form-select" id="inputGroupSelect02">
+                                <option selected class="selected_op">Tamaño...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3 col-md-6 col-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Color</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected class="selected_op">Color...</option>
+                                <option value="1">Negro</option>
+                                <option value="2">Gris</option>
+                                <option value="3">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <!--Elemento Seleccionable con Checkbox-->
+                        <div class="input-group mb-3 col-md-6 col-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Accesorios</label>
+                            <button class="form-select" type="button" data-bs-toggle="dropdown" aria-expanded="false">Accesorios...</button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item form-check" href="#">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">Fogon</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item form-check" href="#">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">Mesada</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item form-check" href="#">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">Brasero</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item form-check" href="#">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">Palita</label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div class="input-group mb-3 col-md-6 col-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Color</label>
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected>Elija...</option>
-                            <option value="1">Negro</option>
-                            <option value="2">Gris</option>
-                            <option value="3">Otro</option>
-                        </select>
+                    <!--Fecha de Entrega-->
+                    <div class="row FechaDeEntrega">
+                        <div class="col-8 col-sm-6">
+                            <label for="start">Fecha de entrega:</label>
+                            <input type="date" id="start" name="trip-start" min="2023-06-07" max="2024-06-07">
+                        </div>
+                        <div class="col-4 col-sm-6">
+                            <a href="#" class="btn mx-auto d-block">Comprar</a>
+                        </div>
                     </div>
-                    
-                    <div class="input-group mb-3 col-md-6 col-3">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Accesorios</button>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item form-check" href="#">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">Fogon</label>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item form-check" href="#">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">Mesada</label>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item form-check" href="#">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">Brasero</label>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item form-check" href="#">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">Palita</label>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="formulario_comprar">
-                <form id="opciones_comprar">
+                </section>
+                
+                <!--Formulario de contacto-->
+                <section class="container_fluid col-12 col-lg-5 margen">
+                    <form class="contacto__form">
                     <fieldset>
-                        <div id="seleccion_modelo">
-                            <p>Modelo</p>
-                            <select id="tipo_parrilla">
-                                <option value="barba">La barba</option>
-                                <option value="qbo">La QBO</option>
-                                <option value="flama">La flama</option>
-                                <option value="portatil">Portatil</option>
-                            </select>
+
+                        <legend>Formulario de contacto</legend>
+                        <div class="row mb-3">
+                        <div class="col gx-0">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="id_nombre">
                         </div>
-                        <div id="seleccion_tamaño">
-                            <p>Tamaño</p>
-                            <select id="tamaño_parrilla">
-                                <option value="n1">N°1</option>
-                                <option value="n2">N°2</option>
-                                <option value="n3">N°3</option>
-                            </select>
+                        <div class="col gx-0 MargenIzquierdo">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="id_apellido">
                         </div>
-                        <div id="seleccion_color">
-                            <p>Color</p>
-                            <select id="color_parrilla" name="color">
-                                <option value="negro">Negro</option>
-                                <option value="gris">Gris</option>
-                                <option value="otro">Otro (especificar)</option>
-                            </select>
                         </div>
-                        <div id="seleccion_accesorios">
-                            <p>Accesorios</p>
-                            <select id="accesorios_parrilla">
-                                <option value="fogon">Fogon</option>
-                                <option value="mesada">Mesada</option>
-                                <option value="brasero">Brasero</option>
-                                <option value="palita">Palita</option>
-                            </select>
+            
+                        <div class="row mb-3">
+                        <input type="email" class="form-control" id="id_email" placeholder="Email">
                         </div>
-                        <div id="seleccion_fecha">
+            
+                        <div class="row mb-3">
+                        <input type="number" class="form-control" id="id_telefono" placeholder="Telefono">
                         </div>
-                        <a href="comprar.html"><button>Comprar</button></a>
+
+                        <div class="row mb-3">
+                            <input type="number" class="form-control" id="id_telefono" placeholder="Direccion Completa">
+                        </div>
+            
+                        <div class="row">
+                        <label for="id_comentarios" class="form-label">Comentarios</label>
+                        <textarea class="form-control" id="id_comentarios" rows="3"></textarea>
+                        </div>
+
                     </fieldset>
-                </form>
+                    </form>
+                </section>
             </section>
 
-            <section class="formulario_contacto">
-                <form class="opciones_contacto">
-                    <fieldset>
-                        <legend>Formulario de Contacto</legend>
-                        <ul class="primer_formulario">
-                            <li><input type="text" name="nombre" id="id_nombre" placeholder="Nombre"></li>
-                            <li class="apellido"><input type="text" name="apellido" id="id_apellido" placeholder="Apellido"></li>
-                        </ul>
-                        <ul class="segundo_formulario">
-                            <li><input type="text" name="email" id="id_email_contacto" placeholder="Ingresa tu email"></li>
-                            <li><input type="text" name="telefono" id="id_telefono" placeholder="Telefono"></li>
-                            <li><input type="text" name="direccion" id="id_direccion" placeholder="Direccion completa"></li>
-                            <li><input type="text" name="comentario" id="id_comentario" placeholder="Comentarios"></li>
-                        </ul>
-                    </fieldset>
-                </form>
-            </section>
         </main>
 
         <footer>
