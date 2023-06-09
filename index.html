@@ -20,13 +20,15 @@
             <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#top">
-                    <h1 class="h1__TituloPrincipal">Todo Parrillas</h1>
-                    <h2 class="h2__TituloPrincipal">-Desde 1973-</h2>
+                    <h1 class="navbar__h1">Todo Parrillas</h1>
+                    <h2 class="navbar__h2">-Desde 1973-</h2>
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                    <!--Link a paginas html-->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid justify-content-end">
                       <li  class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#top">Inicio</a>
@@ -41,12 +43,14 @@
                         <a class="nav-link" href="./pages/ubicacion.html">Donde nos encontramos?</a>
                       </li>
                     </ul>
-                    <ul class="LogosSociales__ul navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
-                      <!--Link a redes sociales-->
-                      <li class="LogosSociales__li"><a href="https://www.facebook.com/todoparrillas/"><img src="./imagenes/facebook-logo.png" alt="Acceso a Facebook"></a></li>
-                      <li class="LogosSociales__li"><a href="https://www.instagram.com/todo_parrillas"><img src="./imagenes/instagram-logo.webp" alt="Acceso a Instagram"></a></li>
-                      <li class="LogosSociales__li"><a href="https://wa.me/5491160249087"><img src="./imagenes/whatsapp-logo.webp" alt="Acceso a Whatsapp"></a></li>
+
+                    <!--Link a redes sociales-->
+                    <ul class="logosSociales navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
+                      <li class="logosSociales__li"><a href="https://www.facebook.com/todoparrillas/"><img class="logosSociales__img" src="./imagenes/facebook-logo.png" alt="Acceso a Facebook"></a></li>
+                      <li class="logosSociales__li"><a href="https://www.instagram.com/todo_parrillas"><img class="logosSociales__img" src="./imagenes/instagram-logo.webp" alt="Acceso a Instagram"></a></li>
+                      <li class="logosSociales__li"><a href="https://wa.me/5491160249087"><img class="logosSociales__img" src="./imagenes/whatsapp-logo.webp" alt="Acceso a Whatsapp"></a></li>
                     </ul>
+
                   </div>
                 </div>
               </nav>
@@ -56,7 +60,7 @@
         <main class="MainIndex">
 
             <!--Imagen flotante de flecha-->
-            <a href="#top"><img class="to_top" src="./imagenes/to_top.jpg" alt="Al inicio"></a>
+            <a href="#top"><img class="toTop" src="./imagenes/to_top.jpg" alt="Al inicio"></a>
 
             <!--Seccion de productos-->
             <section class="container-fluid">
@@ -141,16 +145,16 @@
             <div class="container-fluid text-center">
                 <div class="row">
                     <div class="col-md ">
-                        <img class="logo_footer" src="./imagenes/logo-footer.png" alt="Logo de TodoParrillas">
+                        <img class="logoFooter" src="./imagenes/logo-footer.png" alt="Logo de TodoParrillas">
                     </div>
                     <div class="col-md">
-                        <form class="MailFooter">
+                        <form class="mailFooter">
                             <p>Suscribite para recibir ofertas!</p>
                             <input type="email" name="email" id="id_email" placeholder="Ingresa tu mail">
                         </form>
                     </div>
                     <div class="col-md">
-                        <p class="PieDePagina">Realizado por Santiago Ribot para TodoParrillas. <br><span class="nueva_linea">Todos los derechos reservados</span></p>
+                        <p class="pieDePagina">Realizado por Santiago Ribot para TodoParrillas. <br><span class="negrita">Todos los derechos reservados</span></p>
                     </div>
                 </div>
             </div>

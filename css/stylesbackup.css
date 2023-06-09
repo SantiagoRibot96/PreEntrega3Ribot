@@ -33,10 +33,6 @@ main{
     box-shadow: 0 5px 3px rgb(248, 209, 141);
 }
 
-.MailFooter input{
-    width: 20rem;
-}
-
 .LogosSociales__ul{
     display: flex;
     flex-direction: row;
@@ -44,6 +40,10 @@ main{
 }
 
 /*FOOTER*/
+
+.MailFooter input{
+    width: 20rem;
+}
 
 .PieDePagina{
     white-space: nowrap;

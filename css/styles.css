@@ -4,4 +4,73 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  background-color: rgb(243, 216, 166);
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 3px rgb(248, 209, 141);
+  height: 5rem;
+}
+
+.navbar__h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.navbar__h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.logosSociales__img {
+  width: 2rem;
+  margin-left: 0.5rem;
+}
+
+.logosSociales {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.toTop {
+  width: 3rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0.5;
+  z-index: 100;
+}
+.toTop:hover {
+  opacity: 1;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+body {
+  background-color: rgb(250, 240, 223);
+}
+
+.mailFooter input {
+  width: 20rem;
+}
+
+.pieDePagina {
+  white-space: nowrap;
+}
+
+.negrita {
+  font-weight: bolder;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

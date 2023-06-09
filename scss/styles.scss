@@ -1,1 +1,8 @@
+@import "./utilities/variables";
 @import "./normalize/reset";
+@import "./layout/navbar";
+@import "./components/toTop";
+@import "./layout/main";
+@import "./layout/pieDePagina";
+
+@import "./views/mediaQ";
