@@ -1,13 +1,28 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.navbar {
-  background-color: rgb(243, 216, 166);
+.mailFooter input {
+  width: 20rem;
+}
+
+.pieDePagina {
+  white-space: nowrap;
+}
+
+footer {
+  background-color: rgb(226, 194, 146);
   border-radius: 0.5rem;
-  box-shadow: 0 5px 3px rgb(248, 209, 141);
+  box-shadow: 0 -5px 3px rgba(240, 220, 190, 0.7);
+}
+
+.navbar {
+  background-color: rgb(226, 194, 146);
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 3px rgba(240, 220, 190, 0.7);
   height: 5rem;
 }
 
@@ -33,22 +48,14 @@
 }
 
 main {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
   margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
 
 body {
   background-color: rgb(250, 240, 223);
-}
-
-.mailFooter input {
-  width: 20rem;
-}
-
-.pieDePagina {
-  white-space: nowrap;
 }
 
 .margenIzquierdo {
@@ -109,6 +116,100 @@ body {
   border: none;
 }
 
+.contacto__form {
+  width: 100%;
+  padding: 1.5rem;
+  border: black solid;
+  border-radius: 0.5rem;
+}
+.contacto__datos ul li {
+  background-color: rgb(250, 240, 223);
+}
+
+.mainContacto {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  bottom: 8rem;
+  left: 0;
+}
+.mainContacto__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.card__productos__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card__productos__btn a {
+  width: 100%;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bolder;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgb(226, 194, 146);
+}
+.card__productos__texto {
+  width: 100%;
+  text-align: left;
+}
+
+.input-group {
+  width: 25%;
+}
+
+.dropdown-menu {
+  width: 93%;
+  margin-left: 1rem;
+}
+
+.form-select {
+  text-align: left;
+}
+.form-check {
+  margin-left: 1rem;
+}
+
+.Img--pequeña {
+  width: 2rem;
+  margin-left: 0.5rem;
+}
+
+.FechaDeEntrega div a {
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  background-color: rgb(226, 194, 146);
+}
+
+.mainUbicacion {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  bottom: 8rem;
+  left: 0;
+}
+.mainUbicacion__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.mainUbicacion iframe {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.mainUbicacion p {
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
   iframe {
     width: 450px;
@@ -119,7 +220,7 @@ body {
     font-size: 1rem;
     color: black;
     font-weight: bolder;
-    background-color: rgb(252, 234, 203);
+    background-color: rgb(226, 194, 146);
   }
 }
 @media (max-width: 992px) {

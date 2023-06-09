@@ -1,0 +1,31 @@
+.input-group{
+    width: 25%;
+}
+
+.dropdown-menu{
+    width: 93%;
+    margin-left: 1rem;
+}
+
+.form{
+    &-select{
+        text-align: left;
+    }
+    &-check{
+        margin-left: 1rem;
+    }
+}
+
+.Img--pequeña{
+    width: 2rem;
+    margin-left: .5rem;
+}
+
+.FechaDeEntrega div a{
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    background-color: map-get($paleta, terciario );
+}
+

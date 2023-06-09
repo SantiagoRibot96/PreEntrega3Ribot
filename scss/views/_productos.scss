@@ -1,0 +1,22 @@
+.card__productos{
+
+    &__btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    &__btn a{
+        width: 100%;
+        font-size: 1.2rem;
+        color: black;
+        font-weight: bolder;
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: map-get($paleta, terciario);
+    }
+
+    &__texto{
+        width: 100%;
+        text-align: left;
+    }
+}

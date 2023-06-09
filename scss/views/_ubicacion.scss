@@ -1,0 +1,14 @@
+.mainUbicacion{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    @include mainX;
+
+    iframe{
+        border-radius: .5rem;
+        width: 100%;
+    }
+
+    p{
+        width: 100%;
+    }
+}

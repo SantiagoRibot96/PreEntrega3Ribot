@@ -7,3 +7,9 @@
 .pieDePagina{
     white-space: nowrap;
 }
+
+footer{
+    background-color:map-get($paleta, terciario );
+    border-radius: .5rem;
+    box-shadow: 0 -5px 3px map-get($paleta, secundario );
+}
