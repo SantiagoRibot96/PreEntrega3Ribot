@@ -32,18 +32,6 @@
   width: fit-content;
 }
 
-.toTop {
-  width: 3rem;
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  opacity: 0.5;
-  z-index: 100;
-}
-.toTop:hover {
-  opacity: 1;
-}
-
 main {
   width: 95%;
   margin: 0 auto;
@@ -63,13 +51,118 @@ body {
   white-space: nowrap;
 }
 
+.margenIzquierdo {
+  margin-left: 1rem;
+}
+
 .negrita {
   font-weight: bolder;
 }
 
+.card {
+  background-color: rgba(240, 220, 190, 0.7);
+}
+.card img {
+  width: 15rem;
+  height: 17rem;
+}
+.card .nosotrosIndex__imagen {
+  width: 35rem;
+  height: auto;
+}
+
+.toTop {
+  width: 3rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0.5;
+  z-index: 100;
+}
+.toTop:hover {
+  opacity: 1;
+}
+
+.nosotrosIndex {
+  margin-top: 1rem;
+}
+.nosotrosIndex .card {
+  border: none;
+}
+.nosotrosIndex__imagen {
+  width: 35rem;
+  height: auto;
+}
+.nosotrosIndex__card a {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bolder;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  background-color: rgb(226, 194, 146);
+}
+
+.videoIndex {
+  margin-top: 1rem;
+}
+.videoIndex .card {
+  background-color: rgba(240, 220, 190, 0.7);
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  iframe {
+    width: 450px;
+    height: 225px;
+  }
+  .card__productos__btn a {
+    width: fit-content;
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(252, 234, 203);
+  }
+}
 @media (max-width: 992px) {
   .navbar {
     height: auto;
+  }
+  .logosSociales__img {
+    width: 3rem;
+    margin-left: 0.5rem;
+  }
+  .margen {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .card .nosotrosIndex__imagen {
+    width: 20rem;
+    height: auto;
+  }
+  .videoIndex {
+    display: none;
+  }
+  .contacto__datos {
+    margin-top: 1rem;
+  }
+  .card__productos__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card__productos__btn a {
+    width: fit-content;
+    font-size: 1.2rem;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .input-group {
+    margin: 0 1rem 0 2rem;
+    padding: 0;
+    width: 40%;
+  }
+  .input-group label {
+    display: none;
   }
 }
 

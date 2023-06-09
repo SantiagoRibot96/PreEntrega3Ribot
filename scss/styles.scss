@@ -1,8 +1,13 @@
 @import "./utilities/variables";
 @import "./normalize/reset";
+
 @import "./layout/navbar";
-@import "./components/toTop";
 @import "./layout/main";
 @import "./layout/pieDePagina";
+@import "./layout/estilos";
 
+@import "./components/card";
+@import "./components/toTop";
+
+@import "./views/index";
 @import "./views/mediaQ";

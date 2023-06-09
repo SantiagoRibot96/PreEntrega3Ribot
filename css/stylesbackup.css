@@ -80,21 +80,21 @@ main{
     height: 17rem;
 }
 
-.card .ProductosIndex__Imagen{
+.card .nosotrosIndex__imagen{
     width: 35rem;
     height: auto;
 }
 
-.ProductosIndex{
+.nosotrosIndex{
     padding-top: 5rem;
 }
 
-.ProductosIndex .card{
+.nosotrosIndex .card{
     background-color: rgba(250, 240, 223, 0.384);
     border: none;
 }
 
-.ProductosIndex__Card a{
+.nosotrosIndex__Card a{
     font-size: 1.5rem;
     color: black;
     font-weight: bolder;

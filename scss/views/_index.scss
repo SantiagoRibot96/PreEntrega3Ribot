@@ -1,0 +1,29 @@
+.nosotrosIndex{
+    margin-top: 1rem;
+
+    .card{
+        border: none;
+    }
+
+    &__imagen{
+        width: 35rem;
+        height: auto;
+    }
+
+    &__card a{
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bolder;
+        padding: 0.2rem 2rem 0.2rem 2rem;
+        background-color: map-get($paleta, terciario );
+    }
+}
+
+.videoIndex{
+    margin-top: 1rem;
+
+    .card{
+        background-color: map-get($paleta, secundario );
+        border: none;
+    }
+}
