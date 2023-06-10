@@ -6,13 +6,14 @@
     @include fuente(300, 1.3rem);
 }
 
-.navbar__h1{
-    @include fuente(600, 2.5rem);
-}
-
-.navbar__h2{
-    text-align: center;
-    @include fuente(300, 1.3rem);
+.navbar{
+    &__h1{
+        @include fuente(600, 2.5rem);
+    }
+    &__h2{
+        text-align: center;
+        @include fuente(300, 1.3rem);
+    }
 }
 
 .logosSociales__img{

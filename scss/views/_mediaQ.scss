@@ -34,19 +34,19 @@
         position: static;
     }
 
-    .mainUbicacion{
-        @include mainX(static);
-    }
-    .mainContacto{
-        @include mainX(static);
+    main{
+        margin-top: 8rem;
+
+        &Ubicacion{
+            @include mainX(static);
+        }
+        &Contacto{
+            @include mainX(static);
+        }
     }
 }
 
 @media (max-width: map-get($breakpointsBS, md)){
-
-    main{
-        margin-top: 8rem;
-    }
 
     .card {
         .nosotrosIndex__imagen{
@@ -83,5 +83,17 @@
         label{
             display: none;
         } 
+    }
+}
+
+@media (max-width: 370px){
+    .navbar{
+        &__h1{
+            @include fuente(600, 2rem);
+        }
+        &__h2{
+            text-align: center;
+            @include fuente(300, 1rem);
+        }
     }
 }

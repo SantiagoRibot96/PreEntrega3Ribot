@@ -37,7 +37,6 @@ footer {
   font-weight: 600;
   font-size: 2.5rem;
 }
-
 .navbar__h2 {
   text-align: center;
   font-family: "Oswald", sans-serif;
@@ -219,6 +218,9 @@ body {
 .input-group {
   width: 25%;
 }
+.input-group-ancho {
+  width: 40rem;
+}
 
 .dropdown-menu {
   width: 93%;
@@ -273,7 +275,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   iframe {
     width: 450px;
     height: 225px;
@@ -286,7 +288,7 @@ body {
     background-color: rgb(226, 194, 146);
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .navbar {
     height: auto;
   }
@@ -298,11 +300,40 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-}
-@media (max-width: 768px) {
+  .anclado {
+    position: static;
+  }
   main {
     margin-top: 8rem;
   }
+  mainUbicacion {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  mainUbicacion__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  mainContacto {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  mainContacto__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
   .card .nosotrosIndex__imagen {
     width: 20rem;
     height: auto;
@@ -331,34 +362,18 @@ body {
   .input-group label {
     display: none;
   }
-  .anclado {
-    position: static;
+}
+@media (max-width: 370px) {
+  .navbar__h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
   }
-  .mainUbicacion {
-    position: static;
-    top: 0rem;
-    right: 0;
-    bottom: 8rem;
-    left: 0;
-  }
-  .mainUbicacion__container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-  }
-  .mainContacto {
-    position: static;
-    top: 0rem;
-    right: 0;
-    bottom: 8rem;
-    left: 0;
-  }
-  .mainContacto__container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
+  .navbar__h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
   }
 }
 
