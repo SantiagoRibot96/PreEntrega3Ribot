@@ -156,20 +156,9 @@ body {
 }
 
 .mainContacto {
-  position: fixed;
-  top: 0rem;
-  right: 0;
-  bottom: 8rem;
-  left: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   font-size: 1.2rem;
-}
-.mainContacto__container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
 }
 
 .mainProductos {
@@ -252,20 +241,9 @@ body {
 .mainUbicacion {
   margin-left: 1rem;
   margin-right: 1rem;
-  position: fixed;
-  top: 0rem;
-  right: 0;
-  bottom: 8rem;
-  left: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   font-size: 1.2rem;
-}
-.mainUbicacion__container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
 }
 .mainUbicacion iframe {
   border-radius: 0.5rem;
@@ -327,6 +305,19 @@ body {
     left: 0;
   }
   mainContacto__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  mainComprar {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  mainComprar__container {
     display: flex;
     flex-direction: column;
     height: 100%;

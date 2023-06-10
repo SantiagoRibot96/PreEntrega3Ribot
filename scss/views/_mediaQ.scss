@@ -43,6 +43,9 @@
         &Contacto{
             @include mainX(static);
         }
+        &Comprar{
+            @include mainX(static);
+        }
     }
 }
 
