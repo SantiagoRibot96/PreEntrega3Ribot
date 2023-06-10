@@ -29,6 +29,17 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
+    .anclado{
+        position: static;
+    }
+
+    .mainUbicacion{
+        @include mainX(static);
+    }
+    .mainContacto{
+        @include mainX(static);
+    }
 }
 
 @media (max-width: map-get($breakpointsBS, md)){
@@ -72,16 +83,5 @@
         label{
             display: none;
         } 
-    }
-
-    .anclado{
-        position: static;
-    }
-
-    .mainUbicacion{
-        @include mainX(static);
-    }
-    .mainContacto{
-        @include mainX(static);
     }
 }
