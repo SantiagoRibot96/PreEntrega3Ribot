@@ -5,3 +5,10 @@
 .negrita{
     @include fuente(600, none);
 }
+
+.anclado{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -33,6 +33,10 @@
 
 @media (max-width: map-get($breakpointsBS, md)){
 
+    main{
+        margin-top: 8rem;
+    }
+
     .card {
         .nosotrosIndex__imagen{
             width: 20rem;
@@ -68,5 +72,16 @@
         label{
             display: none;
         } 
+    }
+
+    .anclado{
+        position: static;
+    }
+
+    .mainUbicacion{
+        @include mainX(static);
+    }
+    .mainContacto{
+        @include mainX(static);
     }
 }

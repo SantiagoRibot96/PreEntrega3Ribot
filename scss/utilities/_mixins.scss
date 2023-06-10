@@ -1,5 +1,5 @@
-@mixin mainX{
-    position:absolute;
+@mixin mainX($posicion){
+    position: $posicion;
     top:0rem;
     right:0;
     bottom:8rem;
@@ -17,4 +17,4 @@
     font-family: 'Oswald', sans-serif;
     font-weight: $peso;
     font-size: $tamanio;
-}
+}   

@@ -77,6 +77,13 @@ body {
   font-size: none;
 }
 
+.anclado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .card {
   background-color: rgba(240, 220, 190, 0.7);
 }
@@ -150,7 +157,7 @@ body {
 }
 
 .mainContacto {
-  position: absolute;
+  position: fixed;
   top: 0rem;
   right: 0;
   bottom: 8rem;
@@ -243,7 +250,7 @@ body {
 .mainUbicacion {
   margin-left: 1rem;
   margin-right: 1rem;
-  position: absolute;
+  position: fixed;
   top: 0rem;
   right: 0;
   bottom: 8rem;
@@ -293,6 +300,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  main {
+    margin-top: 8rem;
+  }
   .card .nosotrosIndex__imagen {
     width: 20rem;
     height: auto;
@@ -320,6 +330,35 @@ body {
   }
   .input-group label {
     display: none;
+  }
+  .anclado {
+    position: static;
+  }
+  .mainUbicacion {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  .mainUbicacion__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  .mainContacto {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  .mainContacto__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
   }
 }
 
