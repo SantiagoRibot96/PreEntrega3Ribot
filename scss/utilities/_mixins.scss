@@ -12,3 +12,9 @@
         justify-content: center;
     }
 }//centro a lo alto el main de una hoja que no esta ocupada al 100%
+
+@mixin fuente($peso, $tamanio){
+    font-family: 'Oswald', sans-serif;
+    font-weight: $peso;
+    font-size: $tamanio;
+}

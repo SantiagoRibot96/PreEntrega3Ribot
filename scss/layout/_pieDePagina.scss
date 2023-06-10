@@ -6,6 +6,7 @@
 
 .pieDePagina{
     white-space: nowrap;
+    @include fuente(300, 1.3rem);
 }
 
 footer{

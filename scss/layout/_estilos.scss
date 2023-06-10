@@ -3,5 +3,5 @@
 }
 
 .negrita{
-    font-weight: bolder;
+    @include fuente(600, none);
 }

@@ -11,6 +11,9 @@
 
 .pieDePagina {
   white-space: nowrap;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 footer {
@@ -24,16 +27,22 @@ footer {
   border-radius: 0.5rem;
   box-shadow: 0 5px 3px rgba(240, 220, 190, 0.7);
   height: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 .navbar__h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   font-size: 2.5rem;
-  font-weight: bolder;
 }
 
 .navbar__h2 {
   text-align: center;
-  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 .logosSociales__img {
@@ -63,7 +72,9 @@ body {
 }
 
 .negrita {
-  font-weight: bolder;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: none;
 }
 
 .card {
@@ -90,6 +101,17 @@ body {
   opacity: 1;
 }
 
+.mainIndex {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainIndex h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
 .nosotrosIndex {
   margin-top: 1rem;
 }
@@ -101,9 +123,10 @@ body {
   height: auto;
 }
 .nosotrosIndex__card a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   font-size: 1.5rem;
   color: black;
-  font-weight: bolder;
   padding: 0.2rem 2rem 0.2rem 2rem;
   background-color: rgb(226, 194, 146);
 }
@@ -132,12 +155,26 @@ body {
   right: 0;
   bottom: 8rem;
   left: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
 }
 .mainContacto__container {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
+}
+
+.mainProductos {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainProductos h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .card__productos__btn {
@@ -149,13 +186,27 @@ body {
   width: 100%;
   font-size: 1.2rem;
   color: black;
-  font-weight: bolder;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
   padding: 1rem 2rem 1rem 2rem;
   background-color: rgb(226, 194, 146);
 }
 .card__productos__texto {
   width: 100%;
   text-align: left;
+}
+
+.mainComprar {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.contacto__form legend {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .input-group {
@@ -182,7 +233,9 @@ body {
 .FechaDeEntrega div a {
   font-size: 1rem;
   color: black;
-  font-weight: bolder;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
   padding: 0.2rem 2rem 0.2rem 2rem;
   background-color: rgb(226, 194, 146);
 }
@@ -195,6 +248,9 @@ body {
   right: 0;
   bottom: 8rem;
   left: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
 }
 .mainUbicacion__container {
   display: flex;

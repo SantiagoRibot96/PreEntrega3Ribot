@@ -1,3 +1,10 @@
+.mainIndex{
+    @include fuente(200, 1.2rem);
+    h5{
+        @include fuente(600, 1.2rem);
+    }
+}
+
 .nosotrosIndex{
     margin-top: 1rem;
 
@@ -11,9 +18,8 @@
     }
 
     &__card a{
-        font-size: 1.5rem;
+        @include fuente(600, 1.5rem);
         color: black;
-        font-weight: bolder;
         padding: 0.2rem 2rem 0.2rem 2rem;
         background-color: map-get($paleta, terciario );
     }
